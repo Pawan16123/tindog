@@ -1,3 +1,9 @@
+body h2{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 800;
+    line-height: 55px;
+    font-size: 2rem;
+}
 #title{
     background-color: #ff4c68;
 }
@@ -9,6 +15,130 @@ nav.navbar{
     padding: 3% 15%;
 }
 
+#title{
+    height: 600px;
+    overflow: hidden;
+}
+
 #title h1{
     font-family: 'Rubik', sans-serif;
+    font-weight: 800;
+    padding: 8% 3% 8% 0;
+    line-height: 55px;
+    font-size: 3rem;
+}
+
+#title button{
+    margin-right: 1rem;
+}
+
+#title img{
+    transform: rotate(25deg) scale(0.8) translateY(-100px);
+}
+#title .titlebrand{
+
+    font-size: 2.5rem;
+}
+
+/* Features */
+
+#features .feature{
+    text-align: center;
+    padding: 10% 0;
+}
+#features .feature h3{
+    font-family:  'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    
+}
+#features .feature p{
+    color: #8f8f8f;
+    padding: 0 10%;
+}
+
+#features .feature i{
+    color: #ef8172;
+    font-size: 5rem;
+}
+
+#features .feature i:hover{
+    color: #ff4c68;
+}
+
+/* testimonilas */
+#testimonials{
+    background-color: #ff4c68;
+    padding-top: 3%;
+}
+
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 5%;
+}
+#press img{
+    width: 15%;
+    margin: 80px 30px 30px 30px;
+}
+.carous{
+    text-align: center;
+
+}
+.carous img{
+    width: 10%;
+    border-radius: 100%;
+}
+
+
+/* Pricing */
+#pricing{
+    margin: 5% 0;
+    text-align: center;
+}
+#pricing .card{
+    margin: 3% 5%;
+}
+
+/* cta */
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+}
+#cta h3{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 800;
+    padding: 8% 3% 8% 0;
+    line-height: 55px;
+    font-size: 3rem;
+}
+#cta button{
+    margin: 0 20px;
+}
+
+
+
+/* footer */
+footer{
+    text-align: center;
+    padding: 8% 15%;
+
+}
+footer p{
+    color: #8f8f8f;
+}
+footer i{
+    padding:1% ;
+}
+
+
+@media (max-width:780px){
+    #title{
+        height: fit-content;
+    }
+    #title img{
+        transform: rotate(0deg);
+        position: relative;
+        padding: 5% 0;
+    }
 }

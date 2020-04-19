@@ -142,3 +142,21 @@ footer i{
         padding: 5% 0;
     }
 }
+
+@media (max-width:480px){
+    #title{
+        text-align: center;
+    }
+    #title button {
+        margin-top: 1rem;
+    }
+    #title img{
+        transform: scale(0.5);
+        margin: 0 -40px;
+        top: -180px;
+    }
+    #title div.col-md-6:nth-of-type(2){
+        height: 500px;
+    }
+
+}

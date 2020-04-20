@@ -159,4 +159,11 @@ footer i{
         height: 500px;
     }
 
+
+}
+
+@media (max-width:340px){
+    #title img{
+        margin: 0 -100px
+    }
 }

@@ -1,8 +1,10 @@
+
 body h2{
     font-family: 'Rubik', sans-serif;
     font-weight: 800;
     line-height: 55px;
     font-size: 2rem;
+
 }
 #title{
     background-color: #ff4c68;
@@ -95,6 +97,7 @@ nav.navbar{
 #pricing{
     margin: 5% 0;
     text-align: center;
+    overflow-x: hidden;
 }
 #pricing .card{
     margin: 3% 5%;
